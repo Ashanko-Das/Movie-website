@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieFl1x</title>
+    <!-- Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Own css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!-- Font  awesome -->
+    <script src="https://kit.fontawesome.com/c69b2dd7a4.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Own JS -->
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navbarDiv">
+            <div class="logoContainer">
+                <i class="fa-solid fa-compact-disc fa-2x logo-img"></i>
+                <h1>MoviesFl1x</h1>
+            </div>
+            <div class="menuContainer">
+                <ul class="menuList">
+                    <li class="menuList-Item">Home</li>
+                    <li class="menuList-Item">Movies</li>
+                    <li class="menuList-Item">Originals</li>
+                    <li class="menuList-Item">Newest</li>
+                    <li class="menuList-Item">Trending</li>
+                </ul>
+            </div>
+            <div class="profileContainer">
+                <img class="profilePicture" src="./images/DP.jpg" alt="profile picture" />
+                <div class="profileDropdown-wrapper">
+                    <span>Profile</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="viewMode">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    <div class="toggle-button"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main-container">
+            <div class="content-container">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="featured-container">
+                            <img src="./img/a3.jpg" alt="Banner" class="featured-image" />
+                            <div class="feature-overlay">
+                                <div class="feature-overlay-wrapper">
+                                    <div class="feature-heading popup-animation popup-delay1 ">
+                                        <h1>Demon Slayer : Mugen Train</h1>
+                                      </div>
+                                      <div class="additional-info popup-animation popup-delay2">
+                                          <div class="rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <span>9.5</span>
+                                          </div>
+                                          <div class="duration">
+                                            <i class="fa-solid fa-hourglass"></i>
+                                              <span>180min</span>
+                                            </div>
+                                            <div class="quality">
+                                                <i class="fa-solid fa-film"></i>
+                                                <span>4K HD</span>
+                                            </div>
+                                            <div class="genre">
+                                                <i class="fa-solid fa-bolt"></i>
+                                                <span>Action</span>
+                                            </div>
+                                        </div>
+                                        <div class="description popup-animation popup-delay3">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquid reiciendis nesciunt eos veritatis explicabo sed aspernatur maxime harum asperiores libero ipsam cumque, et sequi doloribus, eum modi optio? Nam consequuntur illum magnam optio, repellat soluta odio atque aut cum.</p>
+                                        </div>
+                                        <button class="feature-watch-button popup-animation popup-delay4">Watch</button>
+                                
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="featured-container">
+                            <img src="./img/5.jpg" alt="Banner" class="featured-image" />
+                            <div class="feature-overlay">
+                                <div class="feature-overlay-wrapper">
+                                    <div class="feature-heading popup-animation popup-delay1">
+                                        <h1>Avengers : End Game</h1>
+                                      </div>
+                                      <div class="additional-info popup-animation popup-delay2">
+                                          <div class="rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <span>9.5</span>
+                                          </div>
+                                          <div class="duration">
+                                            <i class="fa-solid fa-hourglass"></i>
+                                              <span>180min</span>
+                                            </div>
+                                            <div class="quality">
+                                                <i class="fa-solid fa-film"></i>
+                                                <span>4K HD</span>
+                                            </div>
+                                            <div class="genre">
+                                                <i class="fa-solid fa-bolt"></i>
+                                                <span>Action</span>
+                                            </div>
+                                        </div>
+                                        <div class="description popup-animation popup-delay3">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquid reiciendis nesciunt eos veritatis explicabo sed aspernatur maxime harum asperiores libero ipsam cumque, et sequi doloribus, eum modi optio? Nam consequuntur illum magnam optio, repellat soluta odio atque aut cum.</p>
+                                        </div>
+                                        <button class="feature-watch-button popup-animation popup-delay4">Watch</button>
+                                
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="featured-container">
+                            <img src="./img/a2.jpg" alt="Banner" class="featured-image" />
+                            <div class="feature-overlay">
+                                <div class="feature-overlay-wrapper">
+                                    <div class="feature-heading popup-animation popup-delay1 ">
+                                        <h1>Your Name</h1>
+                                      </div>
+                                      <div class="additional-info popup-animation popup-delay2">
+                                          <div class="rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <span>9.5</span>
+                                          </div>
+                                          <div class="duration">
+                                            <i class="fa-solid fa-hourglass"></i>
+                                              <span>180min</span>
+                                            </div>
+                                            <div class="quality">
+                                                <i class="fa-solid fa-film"></i>
+                                                <span>4K HD</span>
+                                            </div>
+                                            <div class="genre">
+                                                <i class="fa-solid fa-bolt"></i>
+                                                <span>Action</span>
+                                            </div>
+                                        </div>
+                                        <div class="description popup-animation popup-delay3">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquid reiciendis nesciunt eos veritatis explicabo sed aspernatur maxime harum asperiores libero ipsam cumque, et sequi doloribus, eum modi optio? Nam consequuntur illum magnam optio, repellat soluta odio atque aut cum.</p>
+                                        </div>
+                                        <button class="feature-watch-button popup-animation popup-delay4">Watch</button>
+                                
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="featured-container">
+                            <img src="./images/wanda-banner.jpg" alt="Banner" class="featured-image" />
+                            <div class="feature-overlay">
+                                <div class="feature-overlay-wrapper">
+                                    <div class="feature-heading popup-animation popup-delay1 ">
+                                        <h1>Wanda Vision</h1>
+                                      </div>
+                                      <div class="additional-info popup-animation popup-delay2">
+                                          <div class="rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <span>9.5</span>
+                                          </div>
+                                          <div class="duration">
+                                            <i class="fa-solid fa-hourglass"></i>
+                                              <span>180min</span>
+                                            </div>
+                                            <div class="quality">
+                                                <i class="fa-solid fa-film"></i>
+                                                <span>4K HD</span>
+                                            </div>
+                                            <div class="genre">
+                                                <i class="fa-solid fa-bolt"></i>
+                                                <span>Action</span>
+                                            </div>
+                                        </div>
+                                        <div class="description popup-animation popup-delay3">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio aliquid reiciendis nesciunt eos veritatis explicabo sed aspernatur maxime harum asperiores libero ipsam cumque, et sequi doloribus, eum modi optio? Nam consequuntur illum magnam optio, repellat soluta odio atque aut cum.</p>
+                                        </div>
+                                        <button class="feature-watch-button popup-animation popup-delay4">Watch</button>
+                                
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- <div class="featured-container">
+                    <img src="./images/wanda-banner.jpg" alt="Banner" class="featured-image" />
+                </div> -->
+
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title"><span class="menu-starter">|</span> Trending</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list-items">
+                            <div class="movie-list-item">
+                                <img src="./images/Animated Series/5.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Your Name</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./images/Animated Series/1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Demon Slayer</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/16.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Trending</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/4.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Trending</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/5.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Trending</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/6.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Trending</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/7.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Trending</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/1.jpeg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Her</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-angle-right slider-icon"></i>
+                    </div>
+                </div>
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title"><span class="menu-starter">|</span> Animated Series</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list-items">
+                            <div class="movie-list-item">
+                                <img src="./img/a4.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Anime</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/a3.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Anime</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/a5.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Anime</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/a6.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Anime</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/a7.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Anime</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/a6.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Anime</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/a6.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Anime</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-angle-right slider-icon"></i>
+                    </div>
+                </div>
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title"><span class="menu-starter">|</span> Web Series</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list-items">
+                            <div class="movie-list-item">
+                                <img src="./img/s1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Kota Factory</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/s1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Kota Factory</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/s1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Kota Factory</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/s1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Kota Factory</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/s1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Kota Factory</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/s1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Kota Factory</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                            <div class="movie-list-item">
+                                <img src="./img/s1.jpg" alt="movie image" class="movie-list-item-image" />
+                                <div class="item-overlay">
+                                    <span class="movie-list-item-title">Kota Factory</span>
+                                    <p class="movie-list-item-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        At hic fugit similique accusantium.
+                                    </p>
+                                    <button class="movie-list-item-button">Watch</button>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-angle-right slider-icon"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
